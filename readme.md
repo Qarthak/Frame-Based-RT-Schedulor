@@ -1,7 +1,6 @@
-1) Name: Sarthak Chaudhary
-   I googled a lot of stuff but I didn't take the help of anyone else for the code
-
-2) File name: main.c
+# Readme
+## File organization
+File name: main.c
    This is the main file which contains the main function and calculates the frame size
    
    File name: makefile
@@ -37,8 +36,7 @@
 	Found out the utilization, taking into account the random WCET
 	Found out the frame size using the hyperperiod and the various parameters of the jobs.
 	Implemented ADTs for vector classes for long long int and periodicJob and an integer heap
-I have not done: Outputted the schedule, slack stealing, EDF
 
-I tried to implement a Red Black Tree for EDF but there were a lot fo runtime errors. I instead decided to go for a heap and realized I needed a queue before but didn't have enough time to implement it. My biggest difficulty was implementing things I've always taken for granted. Second biggest difficulty was the insane amount of segfault and how useless the errors were for fixing them. I wasn't able to use the debugger as it had some issue linking all the libraries. I've always had all my functions in one file and had my faithful debugger for segfaults but this time I had to fix them myself
+I tried to implement a Red Black Tree for EDF but there were a lot fo runtime errors. I instead decided to go for a heap. My biggest difficulty was implementing things I've always taken for granted. Second biggest difficulty was the insane amount of segfault and how useless the errors were for fixing them. I wasn't able to use the debugger as it had some issue linking all the libraries. I've always had all my functions in one file and had my faithful debugger for segfaults but this time I had to fix them myself
 
 7) There were bugs in the red Black tree and a few easy to fix ones in the heap code but I decoupled that code from the rest of the execution and removed it. Running "make" will default to compiling and executing the program and I could find no errors on my WSL: Ubuntu 20.04.4 LTS, using ISO c99 standards
